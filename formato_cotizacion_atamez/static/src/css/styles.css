@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Dax';
+    src: url('DaxRegular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dax';
+    src: url('Dax-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dax';
+    src: url('Dax-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+div{
+    font-family: 'Dax' !important;
+    font-weight: normal;
+    /*color: dimgray !important;*/
+}
+
+strong {
+	font-family: 'Dax' !important;
+    font-weight: bold;
+    /*color: dimgray !important;*/
+}
+
+p {
+	font-family: 'Dax' !important;
+    font-weight: 100;
+    /*color: dimgray !important;*/
+}
+
+.header {
+}
+
+.content{
+	padding-top: 170px;
+	padding-left: 50px; 
+	padding-right:50px;
+	/*background-color: green !important;*/
+}
+
+.logo-img {
+	display: block;
+}
+
+.bold-font {
+	font-family: 'Dax' !important;
+    font-weight: bold !important;
+}
+
+.regular-font {
+	font-family: 'Dax' !important;
+    font-weight: normal;
+}
+
+.light-font {
+	font-family: 'Dax' !important;
+    font-weight: 100;
+}
+
+.client-name {
+	margin-top: 20px;
+}
+
+.footer-name {
+	display: block !important;
+}
+
+.red-arrow {
+	width: 10px;
+	vertical-align: top;
+}
+
+.list-inline li {
+	font-size: 11px !important;
+}
+
+.footer {
+	
+}
+
+.footer .text-muted {
+	font-size: 11px !important;
+}
+
+.footer .green-line {
+	padding-top: 11px !important;
+	border-top: 1px solid #9bcc52; 
+	padding-bottom: 11px !important;
+}
+
+.title-h2 {
+	font-size: 16px !important; 
+	font-weight: bold !important; 
+	color:#4079d3 !important;
+}
+
+.first-text {
+	font-size:15px !important;
+}
+
+#informations {
+	font-size: 15px !important; 
+}
+
+
+
