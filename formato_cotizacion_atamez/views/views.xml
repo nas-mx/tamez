@@ -13,11 +13,11 @@
                 <h3 class="mt0 text-right" t-field="company.report_header"/>
             </div> 
             <div style="font-size:15px; margin-top:20px;" class="row">
-                <div t-if="doc.date_order and doc.state in ['draft','sent']" class="col-xs-6">
+                <div t-if="doc and doc.date_order and doc.state in ['draft','sent']" class="col-xs-6">
                   <strong>Fecha del presupuesto:</strong>
                   <p class="bold-font" t-field="doc.date_order"/>
                 </div>
-                <div t-if="doc.confirmation_date and doc.state not in ['draft','sent']" class="col-xs-3">
+                <div t-if="doc and doc.confirmation_date and doc.state not in ['draft','sent']" class="col-xs-3">
                     <strong>Fecha de pedido:</strong>
                     <p class="bold-font" t-field="doc.confirmation_date"/>
                 </div>
